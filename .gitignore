@@ -1,0 +1,10 @@
+.Rproj.user
+data
+
+# Ignore Latex intermediate files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz

@@ -1,0 +1,30 @@
+Package: spatialequityproject
+Title: Spatial Equity Project
+Version: 1.0
+Authors@R: 
+    person(given = "Chris",
+           family = "Vroegop",
+           role = c("aut", "cre"),
+           email = "chris-bl2-account@outlook.com")
+Description: Framework written in R to efficiently aggregate and map spatial equity data.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    assertthat,
+    dplyr,
+    fasterize,
+    magrittr,
+    methods,
+    nabor,
+    purrr,
+    raster,
+    readr,
+    rlang,
+    scales,
+    sf,
+    stringr,
+    tibble,
+    tidyr
